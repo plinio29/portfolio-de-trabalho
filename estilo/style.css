@@ -1714,7 +1714,7 @@ footer .creditos strong{
         overflow-y: hidden;
     }
     #nav.active .menu-cabeca{
-        height: calc(53% - 90px);
+        height: calc(57% - 90px);
         visibility: visible;
         overflow-y: auto;
     }
@@ -1969,9 +1969,9 @@ footer .creditos strong{
     }
 }
 
-@media screen and (max-width: 414px){
+@media screen and (max-width: 450px){
     #nav.active .menu-cabeca{
-        height: calc(55% - 90px);
+        height: calc(60% - 90px);
         visibility: visible;
         overflow-y: auto;
     }
