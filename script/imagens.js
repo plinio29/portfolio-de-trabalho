@@ -26,7 +26,7 @@ function alteraimg1(){
     botao4.style.backgroundColor = '#ffff'
     botao4.style.color = '#407BFF'
 
-    visita.href = 'https://github.com/plinio29/layout-desafio-mandatrends'
+    visita.href = 'https://github.com/plinio29/portifolio-de-trabalho'
 }
 function alteraimg2(){
     img.src = 'imagens/proje2.jpg'
