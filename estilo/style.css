@@ -1,0 +1,2050 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+   font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+/*Cabeça do site*/
+header{
+    height: 40px;
+    padding: 30px 20px;
+    margin: auto;
+    display: flex;
+    width: 85%;
+    background: none;
+    justify-content: space-between;
+}
+header strong{
+    color: #407BFF;
+}
+header .logo-cabeca {
+    color: #000000;
+    text-decoration: none;
+    padding: 7px;
+}
+header .menu-cabeca a{
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    transition: 0.4s;
+    border-radius: 5px;
+}
+header .menu-cabeca a:hover{
+    background-color: #407BFF;
+    color: #ffff;
+}
+header .logo-cabeca{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+header .menu-cabeca{
+    display: flex;
+    list-style: none;
+    gap: 1.5em;
+    margin-top: 7px;
+}
+header nav #botao-mobile{
+    display: none;
+}
+/*Corpo do site*/
+article{
+    border-top: 5px solid #407BFF;
+    width: 100%;
+}
+/*Sessão início*/
+article .inicio{
+    margin: auto;
+    display: flex;
+    width: 70%;
+}
+article .inicio h1{
+    font-size: 3.5em;
+}
+article .inicio p{
+    font-size: 1.4em;
+    margin: 20px 0px;
+    text-align: justify;
+}
+article .inicio .apresentacao{
+    margin: auto;
+    margin-top: 10%;
+    
+}
+article .inicio .apresentacao .barra{
+    height: 5px;
+    margin: 10px 0px;
+    width: 20%;
+    background-color: #407BFF;
+}
+article .inicio .apresentacao strong{
+    color: #407BFF;
+}
+article .inicio .apresentacao .botoes{
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+article .inicio .apresentacao .botoes a{
+margin: auto;
+}
+article .inicio .apresentacao .botoes button{
+    background-color: #407BFF;
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 8px;
+    color: #ffff;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+article .inicio .imagem{
+    margin: auto;
+    width: 900px;
+}
+/*Sessão sobre*/
+article .sobre{
+    background-color: #141414;
+}
+article .sobre h1{
+    color: #ffff;
+    text-align: center;
+    padding-top: 53px;
+    padding-bottom: 10px;
+    font-size: 2.5em;
+}
+article .sobre .barra{
+    height: 5px;
+    width: 6%;
+    background-color: #407BFF;
+    margin: auto;
+}
+article .sobre .perfil{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+article .sobre .perfil img{
+    width: 200px;
+}
+article .sobre .descricao{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+article .sobre .descricao .curso{
+    color: #ffff;
+    font-size: 1.5em;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+article .sobre .descricao p{
+    color: #ffff;
+    font-size: 1.1em;
+    padding: 5px;
+}
+article .sobre .descricao .cidade{
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+article .sobre .descricao a{
+    text-decoration: none;
+    color: #407BFF;
+}
+article .sobre .botao-cv{
+    text-align: center;
+    padding-bottom: 53px;
+}
+article .sobre .botao-cv button{
+    background-color: #407BFF;
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 8px;
+    color: #ffff;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin: auto;
+}
+/*Sessão tecnologias*/
+article .tecnologias{
+    background-color: #141414;
+    border-top: 5px solid #407BFF;
+    padding-bottom: 90px;
+}
+article .tecnologias h1{
+    color: #ffff;
+    text-align: center;
+    padding-top: 53px;
+    padding-bottom: 10px;
+    font-size: 2.5em;
+}
+article .tecnologias .barra{
+    height: 5px;
+    width: 6%;
+    background-color: #407BFF;
+    margin: auto;
+}
+article .tecnologias .imagens-tec{
+    text-align: center;
+    margin-top: 50px;
+}
+article .tecnologias .imagens-tec img{
+    margin: 0px 6px;
+    width: 7%;
+}
+/*sessão projetos*/
+/*article .projetos{
+
+}*/
+article .projetos h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 2.5em;
+}
+article .projetos .barra{
+    height: 5px;
+    width: 6%;
+    background-color: #407BFF;
+    margin: auto;
+}
+
+article .projetos p{
+    padding-top: 40px;
+    font-size: 1.2em;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+article .projetos .show-projetos{
+    text-align: center;
+    margin-top: 53px;
+}
+article .projetos .show-projetos .proj-botoes{
+    display: flex;
+    margin: auto;
+    width: 40%;
+    margin-bottom: 20px;
+}
+article .projetos .show-projetos .proj-botoes button{
+    background-color: #ffff;
+    width: 120px;
+    height: 40px;
+    margin-top: 5px;
+    border-color: #407BFF;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 8px;
+    color: #407BFF;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin: auto;
+    transition: 0.4s;
+}
+article .projetos .proj-imagens{
+    margin: auto;
+    width: 65%;
+    border-radius: 8px;
+    box-shadow:   0px 6px 5px #14141427;
+    margin-bottom: 53px;
+}
+article .projetos .proj-imagens h1{
+    font-size: 1.6em;
+    padding-top: 40px;
+}
+article .projetos .proj-imagens p{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 1.1em;
+    width: 80%;
+}
+article .projetos .proj-imagens img{
+    width: 98%;
+    border-radius: 8px;
+}
+article .projetos .proj-imagens button{
+    margin: auto;
+    background-color: #407BFF;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: #ffff;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*Base da página*/
+footer{
+    background-color: #141414;
+    text-align: center;
+}
+/*sessão de contato*/
+footer .contato{
+    margin: auto;
+}
+footer .contato h1{
+    color: #ffff;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 2.5em;
+}
+footer .contato .barra{
+    height: 5px;
+    width: 6%;
+    background-color: #407BFF;
+    margin: auto;
+}
+footer p{
+    color: #ffff;
+    padding-top: 50px;
+    width: 50%;
+    margin: auto;
+    font-size: 1.1em;
+}
+footer .contato .img-contato{
+    display: flex;
+    padding-top: 50px;
+    width: 20%;
+    margin: auto;
+}
+footer .contato .img-contato img{
+    width: 50%;
+    margin: auto;
+}
+footer .creditos{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 1em;
+}
+footer .creditos strong{
+    color: #407BFF;
+}
+
+
+
+/*Media Querie*/
+@media screen and (max-width: 2000px){
+    /*corpo*/
+    article .inicio{
+        margin: auto;
+        display: flex;
+        width: 80%;
+    }
+    article .inicio h1{
+        font-size: 3.5em;
+    }
+    article .inicio p{
+        font-size: 1.8em;
+        margin: 20px 0px;
+        text-align: justify;
+    }
+    article .inicio .apresentacao{
+        margin: auto;
+        margin-top: 14%;
+       
+    }
+    article .inicio .apresentacao .barra{
+        height: 5px;
+        margin: 10px 0px;
+        width: 20%;
+        background-color: #407BFF;
+    }
+    article .inicio .apresentacao .botoes{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        gap: 7px;
+        padding-top: 15px;
+        padding-bottom: 40px;
+    }
+    article .inicio .apresentacao .botoes button{
+        background-color: #407BFF;
+        width: 230px;
+        height: 90px;
+        border: none;
+        border-radius: 5px;
+        color: #ffff;
+        cursor: pointer;
+        font-size: 1.8em;
+        margin: auto;
+    }
+    article .inicio .imagem{
+        margin: auto;
+        width: 1100px;
+    }
+
+    article .sobre h1{
+        color: #ffff;
+        text-align: center;
+        padding-top: 53px;
+        padding-bottom: 10px;
+        font-size: 2.5em;
+    }
+    article .sobre .barra{
+        height: 5px;
+        width: 6%;
+        background-color: #407BFF;
+        margin: auto;
+    }
+    article .sobre .perfil{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    article .sobre .perfil img{
+        width: 200px;
+    }
+    article .sobre .descricao{
+        margin: auto;
+        text-align: center;
+        width: 80%;
+    }
+    article .sobre .descricao .curso{
+        color: #ffff;
+        font-size: 1.8em;
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+    article .sobre .descricao p{
+        color: #ffff;
+        font-size: 1.5em;
+        padding: 5px;
+    }
+    article .sobre .descricao .cidade{
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+
+    article .tecnologias{
+        background-color: #141414;
+        border-top: 5px solid #407BFF;
+        padding-bottom: 90px;
+    }
+    article .tecnologias h1{
+        color: #ffff;
+        text-align: center;
+        padding-top: 53px;
+        padding-bottom: 10px;
+        font-size: 2.5em;
+    }
+    article .tecnologias .barra{
+        height: 5px;
+        width: 6%;
+        background-color: #407BFF;
+        margin: auto;
+    }
+    article .tecnologias .imagens-tec{
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        padding-top: 50PX;
+    }
+    article .tecnologias .imagens-tec img{
+        margin: 0px 6px;
+        width: 9%;
+    }
+
+    article .projetos h1{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        font-size: 2.5em;
+    }
+    article .projetos .barra{
+        height: 5px;
+        width: 6%;
+        background-color: #407BFF;
+        margin: auto;
+    }
+    
+    article .projetos p{
+        padding-top: 40px;
+        font-size: 1.2em;
+        width: 60%;
+        text-align: center;
+        margin: auto;
+    }
+    article .projetos .show-projetos{
+        text-align: center;
+        margin-top: 53px;
+    }
+    article .projetos .show-projetos .proj-botoes{
+        display: flex;
+        margin: auto;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    article .projetos .show-projetos .proj-botoes button{
+        background-color: #ffff;
+        width: 210px;
+        height: 70px;
+        margin-top: 5px;
+        border-color: #407BFF;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 5px 8px;
+        color: #407BFF;
+        cursor: pointer;
+        font-size: 1.8em;
+        margin: auto;
+        transition: 0.4s;
+    }
+    article .projetos .proj-imagens{
+        margin: auto;
+        width: 90%;
+        border-radius: 8px;
+        box-shadow:   0px 6px 5px #14141427;
+        margin-bottom: 53px;
+    }
+    article .projetos .proj-imagens h1{
+        font-size: 1.8em;
+        padding-top: 40px;
+        width: 95%;
+        margin: auto;
+    }
+    article .projetos .proj-imagens p{
+        padding-top: 10px;
+        padding-bottom: 15px;
+        font-size: 1.6em;
+        width: 90%;
+    }
+    article .projetos .proj-imagens img{
+        width: 98%;
+        border-radius: 8px;
+    }
+    article .projetos .proj-imagens button{
+        margin: auto;
+        background-color: #407BFF;
+        width: 120px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+        color: #ffff;
+        cursor: pointer;
+        font-size: 1.1em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    footer .contato{
+        margin: auto;
+    }
+    footer .contato h1{
+        color: #ffff;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        font-size: 2.5em;
+    }
+    footer .contato .barra{
+        height: 5px;
+        width: 6%;
+        background-color: #407BFF;
+        margin: auto;
+    }
+    footer p{
+        color: #ffff;
+        padding-top: 50px;
+        width: 70%;
+        margin: auto;
+        font-size: 1.5em;
+    }
+    footer .contato .img-contato{
+        display: flex;
+        padding-top: 50px;
+        width: 20%;
+        margin: auto;
+    }
+    footer .contato .img-contato img{
+        width: 60%;
+        margin: auto;
+    }
+    footer .creditos{
+        padding-top: 50px;
+        padding-bottom: 20px;
+        font-size: 1.2em;
+    }
+    footer .creditos strong{
+        color: #407BFF;
+    }
+}
+
+@media screen and (max-width: 1500px){
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    body{
+       font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    }
+    /*Cabeça do site*/
+    header{
+        height: 40px;
+        padding: 30px 20px;
+        margin: auto;
+        display: flex;
+        width: 85%;
+        background: none;
+        justify-content: space-between;
+    }
+    header strong{
+        color: #407BFF;
+    }
+    header .logo-cabeca {
+        color: #000000;
+        text-decoration: none;
+        padding: 7px;
+    }
+    header .menu-cabeca a{
+        color: #000000;
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        transition: 0.4s;
+        border-radius: 5px;
+    }
+    header .menu-cabeca a:hover{
+        background-color: #407BFF;
+        color: #ffff;
+    }
+    header .logo-cabeca{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    header .menu-cabeca{
+        display: flex;
+        list-style: none;
+        gap: 1.5em;
+        margin-top: 7px;
+    }
+    header nav #botao-mobile{
+        display: none;
+    }
+    /*Corpo do site*/
+    article{
+        border-top: 5px solid #407BFF;
+        width: 100%;
+    }
+    /*Sessão início*/
+    article .inicio{
+        margin: auto;
+        display: flex;
+        width: 70%;
+    }
+    article .inicio h1{
+        font-size: 3.5em;
+    }
+    article .inicio p{
+        font-size: 1.4em;
+        margin: 20px 0px;
+        text-align: justify;
+    }
+    article .inicio .apresentacao{
+        margin: auto;
+        margin-top: 10%;
+        
+    }
+    article .inicio .apresentacao .barra{
+        height: 5px;
+        margin: 10px 0px;
+        width: 20%;
+        background-color: #407BFF;
+    }
+    article .inicio .apresentacao strong{
+        color: #407BFF;
+    }
+    article .inicio .apresentacao .botoes{
+        display: flex;
+        width: 60%;
+        margin: auto;
+    }
+    article .inicio .apresentacao .botoes a{
+    margin: auto;
+    }
+    article .inicio .apresentacao .botoes button{
+        background-color: #407BFF;
+        width: 130px;
+        height: 50px;
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 5px 8px;
+        color: #ffff;
+        cursor: pointer;
+        font-size: 1.2em;
+    }
+    article .inicio .imagem{
+        margin: auto;
+        width: 900px;
+    }
+    /*Sessão sobre*/
+    article .sobre{
+        background-color: #141414;
+    }
+    article .sobre h1{
+        color: #ffff;
+        text-align: center;
+        padding-top: 53px;
+        padding-bottom: 10px;
+        font-size: 2.5em;
+    }
+    article .sobre .barra{
+        height: 5px;
+        width: 6%;
+        background-color: #407BFF;
+        margin: auto;
+    }
+    article .sobre .perfil{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    article .sobre .perfil img{
+        width: 200px;
+    }
+    article .sobre .descricao{
+        margin: auto;
+        text-align: center;
+        width: 50%;
+    }
+    article .sobre .descricao .curso{
+        color: #ffff;
+        font-size: 1.5em;
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+    article .sobre .descricao p{
+        color: #ffff;
+        font-size: 1.1em;
+        padding: 5px;
+    }
+    article .sobre .descricao .cidade{
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+    article .sobre .descricao a{
+        text-decoration: none;
+        color: #407BFF;
+    }
+    article .sobre .botao-cv{
+        text-align: center;
+        padding-bottom: 53px;
+    }
+    article .sobre .botao-cv button{
+        background-color: #407BFF;
+        width: 130px;
+        height: 50px;
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 5px 8px;
+        color: #ffff;
+        cursor: pointer;
+        font-size: 1.1em;
+        margin: auto;
+    }
+    /*Sessão tecnologias*/
+    article .tecnologias{
+        background-color: #141414;
+        border-top: 5px solid #407BFF;
+        padding-bottom: 90px;
+    }
+    article .tecnologias h1{
+        color: #ffff;
+        text-align: center;
+        padding-top: 53px;
+        padding-bottom: 10px;
+        font-size: 2.5em;
+    }
+    article .tecnologias .barra{
+        height: 5px;
+        width: 6%;
+        background-color: #407BFF;
+        margin: auto;
+    }
+    article .tecnologias .imagens-tec{
+        text-align: center;
+        margin-top: 50px;
+    }
+    article .tecnologias .imagens-tec img{
+        margin: 0px 6px;
+        width: 7%;
+    }
+    /*sessão projetos*/
+    /*article .projetos{
+    
+    }*/
+    article .projetos h1{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        font-size: 2.5em;
+    }
+    article .projetos .barra{
+        height: 5px;
+        width: 6%;
+        background-color: #407BFF;
+        margin: auto;
+    }
+    
+    article .projetos p{
+        padding-top: 40px;
+        font-size: 1.2em;
+        width: 50%;
+        text-align: center;
+        margin: auto;
+    }
+    article .projetos .show-projetos{
+        text-align: center;
+        margin-top: 53px;
+    }
+    article .projetos .show-projetos .proj-botoes{
+        display: flex;
+        margin: auto;
+        width: 40%;
+        margin-bottom: 20px;
+    }
+    article .projetos .show-projetos .proj-botoes button{
+        background-color: #ffff;
+        width: 120px;
+        height: 40px;
+        margin-top: 5px;
+        border-color: #407BFF;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 5px 8px;
+        color: #407BFF;
+        cursor: pointer;
+        font-size: 1.1em;
+        margin: auto;
+        transition: 0.4s;
+    }
+    article .projetos .proj-imagens{
+        margin: auto;
+        width: 65%;
+        border-radius: 8px;
+        box-shadow:   0px 6px 5px #14141427;
+        margin-bottom: 53px;
+    }
+    article .projetos .proj-imagens h1{
+        font-size: 1.6em;
+        padding-top: 40px;
+    }
+    article .projetos .proj-imagens p{
+        padding-top: 10px;
+        padding-bottom: 15px;
+        font-size: 1.1em;
+        width: 80%;
+    }
+    article .projetos .proj-imagens img{
+        width: 98%;
+        border-radius: 8px;
+    }
+    article .projetos .proj-imagens button{
+        margin: auto;
+        background-color: #407BFF;
+        width: 120px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+        color: #ffff;
+        cursor: pointer;
+        font-size: 1.1em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    /*Base da página*/
+    footer{
+        background-color: #141414;
+        text-align: center;
+    }
+    /*sessão de contato*/
+    footer .contato{
+        margin: auto;
+    }
+    footer .contato h1{
+        color: #ffff;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        font-size: 2.5em;
+    }
+    footer .contato .barra{
+        height: 5px;
+        width: 6%;
+        background-color: #407BFF;
+        margin: auto;
+    }
+    footer p{
+        color: #ffff;
+        padding-top: 50px;
+        width: 50%;
+        margin: auto;
+        font-size: 1.1em;
+    }
+    footer .contato .img-contato{
+        display: flex;
+        padding-top: 50px;
+        width: 20%;
+        margin: auto;
+    }
+    footer .contato .img-contato img{
+        width: 50%;
+        margin: auto;
+    }
+    footer .creditos{
+        padding-top: 50px;
+        padding-bottom: 20px;
+        font-size: 1em;
+    }
+    footer .creditos strong{
+        color: #407BFF;
+    }
+}
+
+@media screen and (max-width: 1080px){
+    /*corpo*/
+    article .inicio{
+        margin: auto;
+        display: flex;
+        width: 80%;
+    }
+    article .inicio h1{
+        font-size: 2.5em;
+    }
+    article .inicio p{
+        font-size: 1.1em;
+        margin: 20px 0px;
+        text-align: justify;
+    }
+    article .inicio .apresentacao{
+        margin: auto;
+        margin-top: 14%;
+       
+    }
+    article .inicio .apresentacao .barra{
+        height: 5px;
+        margin: 10px 0px;
+        width: 20%;
+        background-color: #407BFF;
+    }
+    article .inicio .apresentacao .botoes{
+        display: flex;
+        width: 100%;
+        margin: auto;
+        gap: 7px;
+        padding-top: 15px;
+        padding-bottom: 40px;
+    }
+    article .inicio .apresentacao .botoes button{
+        background-color: #407BFF;
+        width: 130px;
+        height: 50px;
+        border: none;
+        border-radius: 5px;
+        color: #ffff;
+        cursor: pointer;
+        font-size: 1.2em;
+        margin: auto;
+    }
+    article .inicio .imagem{
+        margin: auto;
+        width: 1100px;
+    }
+
+    article .sobre h1{
+        color: #ffff;
+        text-align: center;
+        padding-top: 53px;
+        padding-bottom: 10px;
+        font-size: 2.5em;
+    }
+    article .sobre .barra{
+        height: 5px;
+        width: 6%;
+        background-color: #407BFF;
+        margin: auto;
+    }
+    article .sobre .perfil{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    article .sobre .perfil img{
+        width: 200px;
+    }
+    article .sobre .descricao{
+        margin: auto;
+        text-align: center;
+        width: 80%;
+    }
+    article .sobre .descricao .curso{
+        color: #ffff;
+        font-size: 1.2em;
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+    article .sobre .descricao p{
+        color: #ffff;
+        font-size: 1.1em;
+        padding: 5px;
+    }
+    article .sobre .descricao .cidade{
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+
+    article .tecnologias{
+        background-color: #141414;
+        border-top: 5px solid #407BFF;
+        padding-bottom: 90px;
+    }
+    article .tecnologias h1{
+        color: #ffff;
+        text-align: center;
+        padding-top: 53px;
+        padding-bottom: 10px;
+        font-size: 2.5em;
+    }
+    article .tecnologias .barra{
+        height: 5px;
+        width: 6%;
+        background-color: #407BFF;
+        margin: auto;
+    }
+    article .tecnologias .imagens-tec{
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        padding-top: 50PX;
+    }
+    article .tecnologias .imagens-tec img{
+        margin: 0px 6px;
+        width: 10%;
+    }
+
+    article .projetos h1{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        font-size: 2.5em;
+    }
+    article .projetos .barra{
+        height: 5px;
+        width: 6%;
+        background-color: #407BFF;
+        margin: auto;
+    }
+    
+    article .projetos p{
+        padding-top: 40px;
+        font-size: 1.2em;
+        width: 60%;
+        text-align: center;
+        margin: auto;
+    }
+    article .projetos .show-projetos{
+        text-align: center;
+        margin-top: 53px;
+    }
+    article .projetos .show-projetos .proj-botoes{
+        display: flex;
+        margin: auto;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    article .projetos .show-projetos .proj-botoes button{
+        background-color: #ffff;
+        width: 110px;
+        height: 40px;
+        margin-top: 5px;
+        border-color: #407BFF;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 5px 8px;
+        color: #407BFF;
+        cursor: pointer;
+        font-size: 1em;
+        margin: auto;
+        transition: 0.4s;
+    }
+    article .projetos .proj-imagens{
+        margin: auto;
+        width: 90%;
+        border-radius: 8px;
+        box-shadow:   0px 6px 5px #14141427;
+        margin-bottom: 53px;
+    }
+    article .projetos .proj-imagens h1{
+        font-size: 1.6em;
+        padding-top: 40px;
+        width: 95%;
+        margin: auto;
+    }
+    article .projetos .proj-imagens p{
+        padding-top: 10px;
+        padding-bottom: 15px;
+        font-size: 1.1em;
+        width: 90%;
+    }
+    article .projetos .proj-imagens img{
+        width: 98%;
+        border-radius: 8px;
+    }
+    article .projetos .proj-imagens button{
+        margin: auto;
+        background-color: #407BFF;
+        width: 120px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+        color: #ffff;
+        cursor: pointer;
+        font-size: 1.1em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    footer .contato{
+        margin: auto;
+    }
+    footer .contato h1{
+        color: #ffff;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        font-size: 2.5em;
+    }
+    footer .contato .barra{
+        height: 5px;
+        width: 6%;
+        background-color: #407BFF;
+        margin: auto;
+    }
+    footer p{
+        color: #ffff;
+        padding-top: 50px;
+        width: 70%;
+        margin: auto;
+        font-size: 1em;
+    }
+    footer .contato .img-contato{
+        display: flex;
+        padding-top: 50px;
+        width: 40%;
+        margin: auto;
+    }
+    footer .contato .img-contato img{
+        width: 60%;
+        margin: auto;
+    }
+    footer .creditos{
+        padding-top: 50px;
+        padding-bottom: 20px;
+        font-size: 1em;
+    }
+    footer .creditos strong{
+        color: #407BFF;
+    }
+}
+
+@media screen and (max-width: 812px){
+    /*corpo*/
+    article .inicio{
+        margin: auto;
+        display: flex;
+        width: 80%;
+    }
+    article .inicio h1{
+        font-size: 2.5em;
+    }
+    article .inicio p{
+        font-size: 1.1em;
+        margin: 20px 0px;
+        text-align: justify;
+    }
+    article .inicio .apresentacao{
+        margin: auto;
+        margin-top: 11%;
+       
+    }
+    article .inicio .apresentacao .barra{
+        height: 5px;
+        margin: 10px 0px;
+        width: 20%;
+        background-color: #407BFF;
+    }
+    article .inicio .apresentacao .botoes{
+        display: flex;
+        width: 100%;
+        margin: auto;
+        gap: 7px;
+        padding-top: 15px;
+        padding-bottom: 40px;
+    }
+    article .inicio .apresentacao .botoes button{
+        background-color: #407BFF;
+        width: 120px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        color: #ffff;
+        cursor: pointer;
+        font-size: 1.2em;
+        margin: auto;
+    }
+    article .inicio .imagem{
+        margin: auto;
+        width: 1100px;
+    }
+
+    article .sobre h1{
+        color: #ffff;
+        text-align: center;
+        padding-top: 53px;
+        padding-bottom: 10px;
+        font-size: 2.5em;
+    }
+    article .sobre .barra{
+        height: 5px;
+        width: 6%;
+        background-color: #407BFF;
+        margin: auto;
+    }
+    article .sobre .perfil{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    article .sobre .perfil img{
+        width: 200px;
+    }
+    article .sobre .descricao{
+        margin: auto;
+        text-align: center;
+        width: 80%;
+    }
+    article .sobre .descricao .curso{
+        color: #ffff;
+        font-size: 1.1em;
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+    article .sobre .descricao p{
+        color: #ffff;
+        font-size: 1em;
+        padding: 5px;
+    }
+    article .sobre .descricao .cidade{
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+
+    article .tecnologias{
+        background-color: #141414;
+        border-top: 5px solid #407BFF;
+        padding-bottom: 90px;
+    }
+    article .tecnologias h1{
+        color: #ffff;
+        text-align: center;
+        padding-top: 53px;
+        padding-bottom: 10px;
+        font-size: 2.5em;
+    }
+    article .tecnologias .barra{
+        height: 5px;
+        width: 6%;
+        background-color: #407BFF;
+        margin: auto;
+    }
+    article .tecnologias .imagens-tec{
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        padding-top: 50PX;
+    }
+    article .tecnologias .imagens-tec img{
+        margin: 0px 6px;
+        width: 12%;
+    }
+
+    article .projetos h1{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        font-size: 2.5em;
+    }
+    article .projetos .barra{
+        height: 5px;
+        width: 6%;
+        background-color: #407BFF;
+        margin: auto;
+    }
+    
+    article .projetos p{
+        padding-top: 40px;
+        font-size: 1.2em;
+        width: 60%;
+        text-align: center;
+        margin: auto;
+    }
+    article .projetos .show-projetos{
+        text-align: center;
+        margin-top: 53px;
+    }
+    article .projetos .show-projetos .proj-botoes{
+        display: flex;
+        margin: auto;
+        width: 60%;
+        margin-bottom: 20px;
+    }
+    article .projetos .show-projetos .proj-botoes button{
+        background-color: #ffff;
+        width: 110px;
+        height: 40px;
+        margin-top: 5px;
+        border-color: #407BFF;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 5px 8px;
+        color: #407BFF;
+        cursor: pointer;
+        font-size: 1em;
+        margin: auto;
+        transition: 0.4s;
+    }
+    article .projetos .proj-imagens{
+        margin: auto;
+        width: 90%;
+        border-radius: 8px;
+        box-shadow:   0px 6px 5px #14141427;
+        margin-bottom: 53px;
+    }
+    article .projetos .proj-imagens h1{
+        font-size: 1.6em;
+        padding-top: 40px;
+        width: 95%;
+        margin: auto;
+    }
+    article .projetos .proj-imagens p{
+        padding-top: 10px;
+        padding-bottom: 15px;
+        font-size: 1.1em;
+        width: 90%;
+    }
+    article .projetos .proj-imagens img{
+        width: 98%;
+        border-radius: 8px;
+    }
+    article .projetos .proj-imagens button{
+        margin: auto;
+        background-color: #407BFF;
+        width: 120px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+        color: #ffff;
+        cursor: pointer;
+        font-size: 1.1em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    footer .contato{
+        margin: auto;
+    }
+    footer .contato h1{
+        color: #ffff;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        font-size: 2.5em;
+    }
+    footer .contato .barra{
+        height: 5px;
+        width: 6%;
+        background-color: #407BFF;
+        margin: auto;
+    }
+    footer p{
+        color: #ffff;
+        padding-top: 50px;
+        width: 70%;
+        margin: auto;
+        font-size: 1em;
+    }
+    footer .contato .img-contato{
+        display: flex;
+        padding-top: 50px;
+        width: 40%;
+        margin: auto;
+    }
+    footer .contato .img-contato img{
+        width: 60%;
+        margin: auto;
+    }
+    footer .creditos{
+        padding-top: 50px;
+        padding-bottom: 20px;
+        font-size: 1em;
+    }
+    footer .creditos strong{
+        color: #407BFF;
+    }
+}
+
+@media screen and (max-width: 760px){
+    /*corpo*/
+    article .inicio{
+        margin: auto;
+        display: flex;
+        width: 80%;
+    }
+    article .inicio h1{
+        font-size: 2.5em;
+    }
+    article .inicio p{
+        font-size: 1.1em;
+        margin: 20px 0px;
+        text-align: justify;
+    }
+    article .inicio .apresentacao{
+        margin: auto;
+        margin-top: 10%;
+       
+    }
+    article .inicio .apresentacao .barra{
+        height: 5px;
+        margin: 10px 0px;
+        width: 20%;
+        background-color: #407BFF;
+    }
+    article .inicio .apresentacao .botoes{
+        display: flex;
+        width: 100%;
+        margin: auto;
+        gap: 7px;
+        padding-top: 15px;
+        padding-bottom: 40px;
+    }
+    article .inicio .apresentacao .botoes button{
+        background-color: #407BFF;
+        width: 120px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        color: #ffff;
+        cursor: pointer;
+        font-size: 1.2em;
+        margin: auto;
+    }
+    article .inicio .imagem{
+        margin: auto;
+        width: 1500px;
+    }
+
+    article .sobre h1{
+        color: #ffff;
+        text-align: center;
+        padding-top: 53px;
+        padding-bottom: 10px;
+        font-size: 2.5em;
+    }
+    article .sobre .barra{
+        height: 5px;
+        width: 6%;
+        background-color: #407BFF;
+        margin: auto;
+    }
+    article .sobre .perfil{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    article .sobre .perfil img{
+        width: 200px;
+    }
+    article .sobre .descricao{
+        margin: auto;
+        text-align: center;
+        width: 80%;
+    }
+    article .sobre .descricao .curso{
+        color: #ffff;
+        font-size: 1.1em;
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+    article .sobre .descricao p{
+        color: #ffff;
+        font-size: 1em;
+        padding: 5px;
+    }
+    article .sobre .descricao .cidade{
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+
+    article .tecnologias{
+        background-color: #141414;
+        border-top: 5px solid #407BFF;
+        padding-bottom: 90px;
+    }
+    article .tecnologias h1{
+        color: #ffff;
+        text-align: center;
+        padding-top: 53px;
+        padding-bottom: 10px;
+        font-size: 2.5em;
+    }
+    article .tecnologias .barra{
+        height: 5px;
+        width: 6%;
+        background-color: #407BFF;
+        margin: auto;
+    }
+    article .tecnologias .imagens-tec{
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+    article .tecnologias .imagens-tec img{
+        margin: 0px 6px;
+        width: 12%;
+    }
+
+    article .projetos h1{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        font-size: 2.5em;
+    }
+    article .projetos .barra{
+        height: 5px;
+        width: 6%;
+        background-color: #407BFF;
+        margin: auto;
+    }
+    
+    article .projetos p{
+        padding-top: 40px;
+        font-size: 1.2em;
+        width: 60%;
+        text-align: center;
+        margin: auto;
+    }
+    article .projetos .show-projetos{
+        text-align: center;
+        margin-top: 53px;
+    }
+    article .projetos .show-projetos .proj-botoes{
+        display: flex;
+        margin: auto;
+        width: 60%;
+        margin-bottom: 20px;
+    }
+    article .projetos .show-projetos .proj-botoes button{
+        background-color: #ffff;
+        width: 24%;
+        height: 40px;
+        margin-top: 5px;
+        border-color: #407BFF;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 5px 8px;
+        color: #407BFF;
+        cursor: pointer;
+        font-size: 1em;
+        margin: auto;
+        transition: 0.4s;
+    }
+    article .projetos .proj-imagens{
+        margin: auto;
+        width: 90%;
+        border-radius: 8px;
+        box-shadow:   0px 6px 5px #14141427;
+        margin-bottom: 53px;
+    }
+    article .projetos .proj-imagens h1{
+        font-size: 1.6em;
+        padding-top: 40px;
+        width: 95%;
+        margin: auto;
+    }
+    article .projetos .proj-imagens p{
+        padding-top: 10px;
+        padding-bottom: 15px;
+        font-size: 1.1em;
+        width: 90%;
+    }
+    article .projetos .proj-imagens img{
+        width: 98%;
+        border-radius: 8px;
+    }
+    article .projetos .proj-imagens button{
+        margin: auto;
+        background-color: #407BFF;
+        width: 120px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+        color: #ffff;
+        cursor: pointer;
+        font-size: 1.1em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    footer .contato{
+        margin: auto;
+    }
+    footer .contato h1{
+        color: #ffff;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        font-size: 2.5em;
+    }
+    footer .contato .barra{
+        height: 5px;
+        width: 6%;
+        background-color: #407BFF;
+        margin: auto;
+    }
+    footer p{
+        color: #ffff;
+        padding-top: 50px;
+        width: 70%;
+        margin: auto;
+        font-size: 1em;
+    }
+    footer .contato .img-contato{
+        display: flex;
+        padding-top: 50px;
+        width: 40%;
+        margin: auto;
+    }
+    footer .contato .img-contato img{
+        width: 60%;
+        margin: auto;
+    }
+    footer .creditos{
+        padding-top: 50px;
+        padding-bottom: 20px;
+        font-size: 1em;
+    }
+    footer .creditos strong{
+        color: #407BFF;
+    }
+}
+
+@media screen and (max-width: 600px){
+    /*Cabeça do site*/
+    /*Config Botão*/
+    header nav #botao-mobile{
+        display: flex;
+        padding: 10px 10px;
+        border: none;
+        font-size: 1em;
+        background:none;
+        cursor: pointer;
+        gap: 8px;
+    }
+    /*Config Hamburger*/
+    header nav #botao-mobile #hamburger{
+        margin-top: 3px;
+        display: block;
+        border-top: 3px solid;
+        width: 30px;
+        color: #000000;
+    }
+    #hamburger::after, #hamburger::before{
+        content: '';
+        display: block;
+        width: 30px;
+        height: 3px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: 0.3s;
+        position: relative;
+    }
+    #nav.active #hamburger{
+        border-top-color: transparent;
+    }
+    #nav.active #hamburger::before{
+        transform: rotate(135deg);
+    }
+    #nav.active #hamburger::after{
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+    /*Config Menu header*/
+    header .menu-cabeca{
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 90px;
+        right: 0px;
+        background: #ffff;
+        height: 0px;
+        transition: 0.6s;
+        z-index: 1000;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+    #nav.active .menu-cabeca{
+        height: calc(53% - 90px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+    .menu-cabeca a{
+       padding: 20px 0;
+       margin: 0 40px;
+       border-bottom: 2px solid #407BFF;
+    }
+    /*corpo*/
+    article .inicio{
+        margin: auto;
+        display: flex;
+        width: 70%;
+    }
+    article .inicio h1{
+        font-size: 2.5em;
+    }
+    article .inicio p{
+        font-size: 1.1em;
+        margin: 20px 0px;
+        text-align: justify;
+    }
+    article .inicio .apresentacao{
+        margin: auto;
+        margin-top: 80px;
+       
+    }
+    article .inicio .apresentacao .barra{
+        height: 5px;
+        margin: 10px 0px;
+        width: 20%;
+        background-color: #407BFF;
+    }
+    article .inicio .apresentacao .botoes{
+        display: flex;
+        width: 100%;
+        margin: auto;
+        gap: 6px;
+        padding-top: 15px;
+        padding-bottom: 40px;
+    }
+    article .inicio .apresentacao .botoes button{
+        background-color: #407BFF;
+        width: 110px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        color: #ffff;
+        cursor: pointer;
+        font-size: 1.2em;
+        margin: auto;
+    }
+    article .inicio .imagem{
+        margin: auto;
+        width: 1000px;
+        display: none;
+    }
+
+    article .sobre h1{
+        color: #ffff;
+        text-align: center;
+        padding-top: 53px;
+        padding-bottom: 10px;
+        font-size: 2.5em;
+    }
+    article .sobre .barra{
+        height: 5px;
+        width: 6%;
+        background-color: #407BFF;
+        margin: auto;
+    }
+    article .sobre .perfil{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    article .sobre .perfil img{
+        width: 200px;
+    }
+    article .sobre .descricao{
+        margin: auto;
+        text-align: center;
+        width: 90%;
+    }
+    article .sobre .descricao .curso{
+        color: #ffff;
+        font-size: 1.1em;
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+    article .sobre .descricao p{
+        color: #ffff;
+        font-size: 1em;
+        padding: 5px;
+    }
+    article .sobre .descricao .cidade{
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+
+    article .tecnologias{
+        background-color: #141414;
+        border-top: 5px solid #407BFF;
+        padding-bottom: 90px;
+    }
+    article .tecnologias h1{
+        color: #ffff;
+        text-align: center;
+        padding-top: 53px;
+        padding-bottom: 10px;
+        font-size: 2.5em;
+    }
+    article .tecnologias .barra{
+        height: 5px;
+        width: 6%;
+        background-color: #407BFF;
+        margin: auto;
+    }
+    article .tecnologias .imagens-tec{
+        text-align: center;
+        margin-top: 50px;
+        width: 100%;
+    }
+    article .tecnologias .imagens-tec img{
+        margin: 0px 6px;
+        width: 14%;
+    }
+
+    article .projetos h1{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        font-size: 2.5em;
+    }
+    article .projetos .barra{
+        height: 5px;
+        width: 6%;
+        background-color: #407BFF;
+        margin: auto;
+    }
+    
+    article .projetos p{
+        padding-top: 40px;
+        font-size: 1.2em;
+        width: 50%;
+        text-align: center;
+        margin: auto;
+    }
+    article .projetos .show-projetos{
+        text-align: center;
+        margin-top: 53px;
+    }
+    article .projetos .show-projetos .proj-botoes{
+        display: flex;
+        margin: auto;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    article .projetos .show-projetos .proj-botoes button{
+        background-color: #ffff;
+        width: 24%;
+        height: 30px;
+        margin-top: 5px;
+        border-color: #407BFF;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 5px 8px;
+        color: #407BFF;
+        cursor: pointer;
+        font-size: 0.8em;
+        margin: auto;
+        transition: 0.4s;
+    }
+    article .projetos .proj-imagens{
+        margin: auto;
+        width: 90%;
+        border-radius: 8px;
+        box-shadow:   0px 6px 5px #14141427;
+        margin-bottom: 53px;
+        text-align: center;
+    }
+    article .projetos .proj-imagens h1{
+        font-size: 1.4em;
+        padding-top: 40px;
+        width: 90%;
+        margin: auto;
+    }
+    article .projetos .proj-imagens p{
+        padding-top: 10px;
+        padding-bottom: 15px;
+        font-size: 1em;
+        width: 90%;
+    }
+    article .projetos .proj-imagens img{
+        width: 98%;
+        border-radius: 8px;
+    }
+    article .projetos .proj-imagens button{
+        margin: auto;
+        background-color: #407BFF;
+        width: 120px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+        color: #ffff;
+        cursor: pointer;
+        font-size: 1.1em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    footer .contato{
+        margin: auto;
+    }
+    footer .contato h1{
+        color: #ffff;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        font-size: 2.5em;
+    }
+    footer .contato .barra{
+        height: 5px;
+        width: 6%;
+        background-color: #407BFF;
+        margin: auto;
+    }
+    footer p{
+        color: #ffff;
+        padding-top: 50px;
+        width: 90%;
+        margin: auto;
+        font-size: 1em;
+    }
+    footer .contato .img-contato{
+        display: flex;
+        padding-top: 50px;
+        width: 70%;
+        margin: auto;
+    }
+    footer .contato .img-contato img{
+        width: 60%;
+        margin: auto;
+    }
+    footer .creditos{
+        padding-top: 50px;
+        padding-bottom: 20px;
+        font-size: 1em;
+    }
+    footer .creditos strong{
+        color: #407BFF;
+    }
+}
+
+@media screen and (max-width: 414px){
+    #nav.active .menu-cabeca{
+        height: calc(55% - 90px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+}
+
+@media screen and (max-width: 412px){
+    #nav.active .menu-cabeca{
+        height: calc(50% - 90px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+}
+
+@media screen and (max-width: 375px){
+    #nav.active .menu-cabeca{
+        height: calc(63% - 90px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+}
+
+@media screen and (max-width: 360px){
+    #nav.active .menu-cabeca{
+        height: calc(68% - 90px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+    article .inicio{
+        margin: auto;
+        display: flex;
+        width: 70%;
+    }
+    article .inicio h1{
+        font-size: 2.5em;
+    }
+    article .inicio p{
+        font-size: 1.1em;
+        margin: 20px 0px;
+        text-align: justify;
+    }
+    article .inicio .apresentacao{
+        margin: auto;
+        margin-top: 80px;
+       
+    }
+    article .inicio .apresentacao .barra{
+        height: 5px;
+        margin: 10px 0px;
+        width: 20%;
+        background-color: #407BFF;
+    }
+    article .inicio .apresentacao .botoes{
+        display: flex;
+        width: 100%;
+        margin: auto;
+        gap: 6px;
+        padding-top: 15px;
+        padding-bottom: 60px;
+    }
+    article .inicio .apresentacao .botoes button{
+        background-color: #407BFF;
+        width: 110px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        color: #ffff;
+        cursor: pointer;
+        font-size: 1.2em;
+        margin: auto;
+    }
+    article .inicio .imagem{
+        margin: auto;
+        width: 1000px;
+        display: none;
+    }
+}

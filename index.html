@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portifólio - Plínio Ramos</title>
+    <!--Link favicon-->
+    <link rel="shortcut icon" href="imagens/icon-portifolio.ico" type="image/icone">
+    <!--Link CSS-->
+    <link rel="stylesheet" href="estilo/style.css">
+<!--Conteúdo HTML-->
+</head>
+<body>
+    <!--Cabeca da página-->
+    <header>
+        <!--Logo header-->
+        <a class="logo-cabeca" href="portifolio.html">Dev<strong>full-stack</strong></a>
+        <!--Menu header-->
+        <nav id="nav">
+            <button id="botao-mobile"><!--Menu-->
+                <span id="hamburger"></span>
+            </button>
+            <ul class="menu-cabeca">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav> 
+    </header>
+    <!--Corpo da página-->
+    <main>
+        <article>
+            <!--Sessão início-->
+            <section class="inicio">
+                <div class="apresentacao">
+                    <h1>Plínio Ramos</h1>
+                    <div class="barra">
+         
+                    </div>
+                    <p>Olá, sou desenvolvedor <strong>full-stack</strong> e criei este site para falar um pouco sobre mim e meus projetos.</p>
+                    <div class="botoes">
+                        <a href="#projetos"><button>Projetos</button></a>
+                        <a href="#contato"><button>Contato</button></a>
+                    </div>
+                </div>
+                <div class="imagem">
+                    <img src="imagens/img-programador.svg" alt="imagem-programador">
+                </div>
+            </section>
+            <!--Sessão sobre-->
+            <section id="sobre" class="sobre">
+                <h1>Sobre</h1>
+                <div class="barra">
+
+                </div>
+                <div class="perfil">
+                    <img src="imagens/foto-perfil.png" alt="foto-perfil">
+                </div>
+                <div class="descricao">
+                    <p class="curso">Sup. Análise e Desenvolvimento de Sistemas - <a href="https://www.unip.br/" target="_blank">UNIP</a></p>
+                    <p>Analista de sistemas, desenvolvedor full-stack, atuo também na infraestrutura de TI e possuo sólidos conhecimetos em design e edição de imagens.</p>
+                    <p class="cidade">Pirajuí - SP</p>
+                </div>
+                <div class="botao-cv">
+                    <a href="documentos/PLÍNIO RAMOS - CURRÍCULO 2023.pdf" target="_blank" download="CURRÍCULO-PLÍNIO RAMOS 2023"><button>Download CV</button></a>
+                </div>
+            </section>
+            <!--Sessão tecnologias-->
+            <section class="tecnologias">
+                <h1>Tecnologias</h1>
+                <div class="barra">
+
+                </div>
+                <div class="imagens-tec">
+                    <abbr title="HTML"><img src="imagens/tec1.png" alt="img-html"></abbr>
+                    <abbr title="CSS"><img src="imagens/tec2.png" alt="img-css"></abbr>
+                    <abbr title="JavaScript"><img src="imagens/tec3.png" alt="img-javascript"></abbr>
+                    <abbr title="Node.Js"><img src="imagens/tec4.png" alt="img-nodejs"></abbr>
+                    <abbr title="Python"><img src="imagens/tec5.png" alt="img-python"></abbr>
+                    <abbr title="MySQL"><img src="imagens/tec6.png" alt="img-mysql"></abbr>
+                </div>
+            </section>
+            <!--Sessão projetos-->
+            <section id="projetos" class="projetos">
+                <h1>Projetos</h1>
+                <div class="barra">
+
+                </div>
+                    <!--<p>Aqui estão alguns dos meus projetos, neles foram utilidados html, css, javascript e python.</p>-->
+                <div class="show-projetos">
+                    <div class="proj-botoes">
+                        <button id="botao1">Projeto 01</button>
+                        <button id="botao2">Projeto 02</button>
+                        <button id="botao3">Projeto 03</button>
+                        <button id="botao4">Projeto 04</button>
+                    </div>
+                    <div class="proj-imagens">
+                        <h1 id="titulo-proj">Portifólio de trabalho</h1>
+                        <p id="descri-proj">O projeto foi desenvolvido com o objetivo de apresentar meus trabalhos de maneira simples e eficiente, nele foi utilizada as tecnologias HTML, CSS e JavaScript.</p>
+                        <img id="img" src="imagens/proje1.jpg" alt="projeto site">
+                        <a id="visita" href="https://github.com/plinio29/layout-desafio-mandatrends" target="_blank"><button>Visitar</button></a>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+    <!--Pés da página-->
+    <footer>
+        <!--Sessão de contato-->
+        <section id="contato" class="contato">
+            <h1>Contato</h1>
+            <div class="barra">
+
+            </div>
+            <p>Entre em contato comigo por ligação ou via Whatsapp pelo número (14) 99826-2819.</p>
+            <div class="img-contato">
+                <a href="https://www.linkedin.com/in/pl%C3%ADnio-ramos-3a1543229/" target="_blank"><img src="imagens/cont1.png" alt="linkedin"></a>
+                <a href="https://github.com/plinio29" target="_blank"><img src="imagens/cont2.png" alt="github"></a>
+                <a href="mailto:plinio206@live.com" target="_blank"><img src="imagens/cont3.png" alt="email"></a>
+            </div>
+        </section>
+        <p class="creditos">Feito por <strong>Plínio Ramos</strong><br> &#169;Todos os direitos reservados</p>
+    </footer>
+    <!--Script Javascript-->
+    <script src="script/script.js"></script>
+    <script src="script/imagens.js"></script>
+</body>
+</html>
