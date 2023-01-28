@@ -1714,7 +1714,7 @@ footer .creditos strong{
         overflow-y: hidden;
     }
     #nav.active .menu-cabeca{
-        height: calc(57% - 90px);
+        height: calc(100% - 90px);
         visibility: visible;
         overflow-y: auto;
     }
@@ -1773,6 +1773,11 @@ footer .creditos strong{
         display: none;
     }
 
+    article .sobre{
+        background-color: #141414;
+        z-index: 1500;
+        position: relative;
+    }
     article .sobre h1{
         color: #ffff;
         text-align: center;
@@ -1969,36 +1974,8 @@ footer .creditos strong{
     }
 }
 
-@media screen and (max-width: 450px){
-    #nav.active .menu-cabeca{
-        height: calc(60% - 90px);
-        visibility: visible;
-        overflow-y: auto;
-    }
-}
-
-@media screen and (max-width: 412px){
-    #nav.active .menu-cabeca{
-        height: calc(50% - 90px);
-        visibility: visible;
-        overflow-y: auto;
-    }
-}
-
-@media screen and (max-width: 375px){
-    #nav.active .menu-cabeca{
-        height: calc(63% - 90px);
-        visibility: visible;
-        overflow-y: auto;
-    }
-}
-
 @media screen and (max-width: 360px){
-    #nav.active .menu-cabeca{
-        height: calc(68% - 90px);
-        visibility: visible;
-        overflow-y: auto;
-    }
+   
     article .inicio{
         margin: auto;
         display: flex;
@@ -2029,7 +2006,7 @@ footer .creditos strong{
         margin: auto;
         gap: 6px;
         padding-top: 15px;
-        padding-bottom: 60px;
+        padding-bottom: 50px;
     }
     article .inicio .apresentacao .botoes button{
         background-color: #407BFF;
