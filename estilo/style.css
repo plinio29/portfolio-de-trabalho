@@ -1990,7 +1990,7 @@ footer .creditos strong{
     article .inicio{
         margin: auto;
         display: flex;
-        width: 70%;
+        width: 75%;
     }
     article .inicio h1{
         font-size: 2.5em;
@@ -2021,7 +2021,7 @@ footer .creditos strong{
     }
     article .inicio .apresentacao .botoes button{
         background-color: #407BFF;
-        width: 110px;
+        width: 130px;
         height: 40px;
         border: none;
         border-radius: 5px;
@@ -2103,11 +2103,11 @@ footer .creditos strong{
     }
     article .tecnologias .imagens-tec{
         text-align: center;
-        margin-top: 50px;
+        margin-top: 40px;
         width: 100%;
     }
     article .tecnologias .imagens-tec img{
-        margin: 0px 6px;
+        margin: 6px 6px;
         width: 14%;
     }
 
@@ -2144,7 +2144,7 @@ footer .creditos strong{
     article .projetos .show-projetos .proj-botoes button{
         background-color: #ffff;
         width: 24%;
-        height: 30px;
+        height: 40px;
         margin-top: 5px;
         border-color: #407BFF;
         border-radius: 5px;
@@ -2152,7 +2152,7 @@ footer .creditos strong{
         margin: 5px 8px;
         color: #407BFF;
         cursor: pointer;
-        font-size: 0.8em;
+        font-size: 0.9em;
         margin: auto;
         transition: 0.4s;
     }
