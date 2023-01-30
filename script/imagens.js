@@ -15,7 +15,7 @@ botao4.addEventListener('click', alteraimg4);
 function alteraimg1(){
     img.src = 'imagens/proje1.jpg'
     titulo.innerText = 'Portifólio de trabalho'
-    descricao.innerText = 'O projeto foi desenvolvido com o objetivo de apresentar meus trabalhos de maneira simples e eficiente, nele foi utilizada as tecnologias HTML, CSS e JavaScript.'
+    descricao.innerText = 'O projeto foi desenvolvido com o objetivo de apresentar meus trabalhos de maneira simples e eficiente, nele foram utilizadas as tecnologias HTML, CSS e JavaScript.'
     botao1.style.backgroundColor = '#407BFF'
     botao1.style.color = '#ffff'
 
@@ -63,7 +63,7 @@ function alteraimg3(){
 function alteraimg4(){
     img.src = 'imagens/proje4.jpg'
     titulo.innerText = 'Sistema de cadastro de clientes'
-    descricao.innerText = 'O projeto consiste em um sistema em pythom que permite adicionar, pesquisr, editar e excluir dados de clientes, no projeto foram utilizadas as tecnologias Python, PyQT5, QT designer e arquivo de texto.'
+    descricao.innerText = 'O projeto consiste em um sistema em python que permite adicionar, pesquisr, editar e excluir dados de clientes, no projeto foram utilizadas as tecnologias Python, PyQT5, QT designer e arquivo de texto.'
     botao4.style.backgroundColor = '#407BFF'
     botao4.style.color = '#ffff'
 
