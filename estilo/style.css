@@ -72,7 +72,7 @@ article .inicio h1{
 article .inicio p{
     font-size: 1.4em;
     margin: 20px 0px;
-    text-align: justify;
+    text-align: left;
 }
 article .inicio .apresentacao{
     margin: auto;
@@ -144,7 +144,7 @@ article .sobre .descricao{
 }
 article .sobre .descricao .curso{
     color: #ffff;
-    font-size: 1.5em;
+    font-size: 1.4em;
     padding-top: 5px;
     padding-bottom: 20px;
     text-align: center;
@@ -154,7 +154,7 @@ article .sobre .descricao p{
     color: #ffff;
     font-size: 1.1em;
     padding: 5px;
-    text-align: justify;
+    text-align: left;
     width: 70%;
     margin: auto;
 }
@@ -230,7 +230,7 @@ article .projetos .barra{
 
 article .projetos p{
     padding-top: 40px;
-    font-size: 1.2em;
+    font-size: 1.1em;
     width: 60%;
     text-align: center;
     margin: auto;
@@ -276,7 +276,7 @@ article .projetos .proj-imagens p{
     padding-bottom: 15px;
     font-size: 1.1em;
     width: 90%;
-    text-align: justify;
+    text-align: left;
 }
 article .projetos .proj-imagens #descri-proj{
     width: 90%;
@@ -365,7 +365,7 @@ footer .creditos strong{
     article .inicio p{
         font-size: 2.2em;
         margin: 20px 0px;
-        text-align: justify;
+        text-align: left;
     }
     article .inicio .apresentacao{
         margin: auto;
@@ -438,7 +438,7 @@ footer .creditos strong{
         color: #ffff;
         font-size: 2em;
         padding: 5px;
-        text-align: center;
+        text-align: left;
     }
     article .sobre .descricao .cidade{
         padding-top: 15px;
@@ -554,7 +554,7 @@ footer .creditos strong{
         padding-bottom: 15px;
         font-size: 2.2em;
         width: 90%;
-        text-align: center;
+        text-align: left;
     }
     article .projetos .proj-imagens img{
         width: 98%;
@@ -631,7 +631,7 @@ footer .creditos strong{
     article .inicio p{
         font-size: 1.8em;
         margin: 20px 0px;
-        text-align: justify;
+        text-align: left;
     }
     article .inicio .apresentacao{
         margin: auto;
@@ -704,6 +704,7 @@ footer .creditos strong{
         color: #ffff;
         font-size: 1.5em;
         padding: 5px;
+        text-align: left;
     }
     article .sobre .descricao .cidade{
         padding-top: 15px;
@@ -802,6 +803,7 @@ footer .creditos strong{
         padding-bottom: 15px;
         font-size: 1.6em;
         width: 90%;
+        text-align: left;
     }
     article .projetos .proj-imagens img{
         width: 98%;
@@ -842,7 +844,7 @@ footer .creditos strong{
         padding-top: 50px;
         width: 70%;
         margin: auto;
-        font-size: 1.5em;
+        font-size: 1.6em;
         text-align: center;
     }
     footer .contato .img-contato{
@@ -858,7 +860,7 @@ footer .creditos strong{
     footer .creditos{
         padding-top: 50px;
         padding-bottom: 20px;
-        font-size: 1.2em;
+        font-size: 1.6em;
     }
     footer .creditos strong{
         color: #407BFF;
@@ -1008,7 +1010,7 @@ footer .creditos strong{
     }
     article .sobre .descricao .curso{
         color: #ffff;
-        font-size: 1.5em;
+        font-size: 1.4em;
         padding-top: 5px;
         padding-bottom: 20px;
         text-align: center;
@@ -1018,8 +1020,8 @@ footer .creditos strong{
         color: #ffff;
         font-size: 1.1em;
         padding: 5px;
-        text-align: justify;
-        width: 70%;
+        text-align: left;
+        width: 75%;
         margin: auto;
     }
     article .sobre .descricao .cidade{
@@ -1093,7 +1095,7 @@ footer .creditos strong{
     
     article .projetos p{
         padding-top: 40px;
-        font-size: 1.2em;
+        font-size: 1.1em;
         width: 50%;
         text-align: center;
         margin: auto;
@@ -1139,7 +1141,7 @@ footer .creditos strong{
         padding-bottom: 15px;
         font-size: 1.1em;
         width: 90%;
-        text-align: justify;
+        text-align: left;
     }
     article .projetos .proj-imagens #descri-proj{
         width: 90%;
@@ -1204,7 +1206,7 @@ footer .creditos strong{
     footer .creditos{
         padding-top: 50px;
         padding-bottom: 20px;
-        font-size: 1em;
+        font-size: 1.1em;
         text-align: center;
     }
     footer .creditos strong{
@@ -1225,7 +1227,7 @@ footer .creditos strong{
     article .inicio p{
         font-size: 1.1em;
         margin: 20px 0px;
-        text-align: justify;
+        text-align: left;
     }
     article .inicio .apresentacao{
         margin: auto;
@@ -1290,13 +1292,13 @@ footer .creditos strong{
     }
     article .sobre .descricao .curso{
         color: #ffff;
-        font-size: 1.2em;
+        font-size: 1.1em;
         padding-top: 5px;
         padding-bottom: 20px;
     }
     article .sobre .descricao p{
         color: #ffff;
-        font-size: 1.1em;
+        font-size: 1em;
         padding: 5px;
     }
     article .sobre .descricao .cidade{
@@ -1348,7 +1350,7 @@ footer .creditos strong{
     
     article .projetos p{
         padding-top: 40px;
-        font-size: 1.2em;
+        font-size: 1em;
         width: 60%;
         text-align: center;
         margin: auto;
@@ -1365,7 +1367,7 @@ footer .creditos strong{
     }
     article .projetos .show-projetos .proj-botoes button{
         background-color: #ffff;
-        width: 110px;
+        width: 100px;
         height: 40px;
         margin-top: 5px;
         border-color: #407BFF;
@@ -1394,7 +1396,7 @@ footer .creditos strong{
     article .projetos .proj-imagens p{
         padding-top: 10px;
         padding-bottom: 15px;
-        font-size: 1.1em;
+        font-size: 1em;
         width: 90%;
     }
     article .projetos .proj-imagens img{
@@ -1471,7 +1473,7 @@ footer .creditos strong{
     article .inicio p{
         font-size: 1.1em;
         margin: 20px 0px;
-        text-align: justify;
+        text-align: left;
     }
     article .inicio .apresentacao{
         margin: auto;
@@ -1640,7 +1642,7 @@ footer .creditos strong{
     article .projetos .proj-imagens p{
         padding-top: 10px;
         padding-bottom: 15px;
-        font-size: 1.1em;
+        font-size: 1em;
         width: 90%;
     }
     article .projetos .proj-imagens img{
@@ -2018,7 +2020,7 @@ footer .creditos strong{
     article .inicio{
         margin: auto;
         display: flex;
-        width: 80%;
+        width: 85%;
     }
     article .inicio h1{
         font-size: 2.5em;
@@ -2027,7 +2029,7 @@ footer .creditos strong{
     article .inicio p{
         font-size: 1.1em;
         margin: 20px 0px;
-        text-align: justify;
+        text-align: left;
     }
     article .inicio .apresentacao{
         margin: auto;
@@ -2044,14 +2046,14 @@ footer .creditos strong{
         display: flex;
         width: 100%;
         margin: auto;
-        gap: 6px;
+        gap: 3px;
         padding-top: 15px;
         padding-bottom: 40px;
     }
     article .inicio .apresentacao .botoes button{
         background-color: #407BFF;
-        width: 130px;
-        height: 40px;
+        width: 140px;
+        height: 50px;
         border: none;
         border-radius: 5px;
         color: #ffff;
@@ -2157,7 +2159,7 @@ footer .creditos strong{
     
     article .projetos p{
         padding-top: 40px;
-        font-size: 1.2em;
+        font-size: 1em;
         width: 50%;
         text-align: center;
         margin: auto;
@@ -2247,7 +2249,7 @@ footer .creditos strong{
         width: 85%;
         margin: auto;
         font-size: 1em;
-        text-align: justify;
+        text-align: center;
     }
     footer .contato .img-contato{
         display: flex;
@@ -2283,7 +2285,7 @@ footer .creditos strong{
     article .inicio p{
         font-size: 1.1em;
         margin: 20px 0px;
-        text-align: justify;
+        text-align: left;
     }
     article .inicio .apresentacao{
         margin: auto;
