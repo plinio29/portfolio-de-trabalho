@@ -888,6 +888,7 @@ footer .creditos strong{
         background: none;
         justify-content: space-between;
     }
+    
     header strong{
         color: #407BFF;
     }
@@ -1102,35 +1103,25 @@ footer .creditos strong{
     }
     article .projetos .show-projetos{
         text-align: center;
-        margin-top: 53px;
-    }
-    article .projetos .show-projetos .proj-botoes{
         display: flex;
+        flex-wrap: wrap;
+        margin-top: 53px;
+        width: 95%;
         margin: auto;
-        width: 40%;
-        margin-bottom: 20px;
+        margin-bottom: 53px;
     }
-    article .projetos .show-projetos .proj-botoes button{
-        background-color: #ffff;
-        width: 120px;
-        height: 40px;
-        margin-top: 5px;
-        border-color: #407BFF;
-        border-radius: 5px;
-        padding: 5px;
-        margin: 5px 8px;
-        color: #407BFF;
-        cursor: pointer;
-        font-size: 1.1em;
-        margin: auto;
-        transition: 0.4s;
-    }
+    
     article .projetos .proj-imagens{
         margin: auto;
-        width: 65%;
+        width: 22%;
         border-radius: 8px;
-        box-shadow:   0px 6px 5px #14141427;
-        margin-bottom: 53px;
+        box-shadow:   -1px 4px 5px 4px #14141427;
+        margin-top: 53px;
+        background-color: #ebebeb;
+    }
+    article .projetos .proj-imagens .mais{
+        width: 50%;
+        padding: 50px;
     }
     article .projetos .proj-imagens h1{
         font-size: 1.6em;
@@ -1147,22 +1138,8 @@ footer .creditos strong{
         width: 90%;
     }
     article .projetos .proj-imagens img{
-        width: 98%;
-        border-radius: 8px;
-    }
-    article .projetos .proj-imagens button{
-        margin: auto;
-        background-color: #407BFF;
-        width: 120px;
-        height: 40px;
-        border: none;
-        border-radius: 5px;
-        padding: 5px;
-        color: #ffff;
-        cursor: pointer;
-        font-size: 1.1em;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        width: 100%;
+        border-radius: 0px;
     }
     /*Base da página*/
     footer{

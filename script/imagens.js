@@ -1,4 +1,4 @@
-var botao1 = document.getElementById('botao1');
+/*var botao1 = document.getElementById('botao1');
 var botao2 = document.getElementById('botao2');
 var botao3 = document.getElementById('botao3');
 var botao4 = document.getElementById('botao4');
@@ -75,4 +75,4 @@ function alteraimg4(){
     botao3.style.color = '#407BFF'
 
     visita.href = 'https://github.com/plinio29/sistema-de-cadastro-python'
-}
+}*/
