@@ -885,6 +885,35 @@ footer .creditos strong{
         background-color: #407BFF;
         margin: auto;
     }
+    article .projetos .quadro-cards{
+        width: 90%;
+        padding-bottom: 53px;
+        padding-top: 53px;
+        margin: auto;
+    }
+    article .projetos .quadro-cards .card{
+        width: 25%;
+        border-radius: 8px;
+        background-color: #b3b3b3;
+        margin: auto;
+        
+    }
+    article .projetos .quadro-cards .card h1{
+        font-size: 1.8em;
+    }
+    article .projetos .quadro-cards .card p{
+        text-align: left;
+        font-size: 1em;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 90%;
+    }
+    article .projetos .quadro-cards .card img{
+        width: 100%;
+        margin-bottom: -4px;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
     /*Base da página*/
     footer{
         background-color: #141414;
