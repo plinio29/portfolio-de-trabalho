@@ -890,16 +890,30 @@ footer .creditos strong{
         padding-bottom: 53px;
         padding-top: 53px;
         margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.9em;
     }
     article .projetos .quadro-cards .card{
-        width: 25%;
+        width: 23%;
         border-radius: 8px;
-        background-color: #b3b3b3;
         margin: auto;
-        
+        box-shadow: -1px 2px 6px 4px #00000023;
+        -webkit-box-shadow: -1px 2px 6px 4px #00000023;
+        -moz-box-shadow: -1px 2px 6px 4px #00000023;
+    }
+    article .projetos .quadro-cards #card-mais{
+        height: 446px;
+        background-color: #407BFF;
+        text-align: center;
+    }
+    article .projetos .quadro-cards #card-mais .mais{
+        width: 50%;
+        margin-top: 50%;
     }
     article .projetos .quadro-cards .card h1{
         font-size: 1.8em;
+        text-align: center;
     }
     article .projetos .quadro-cards .card p{
         text-align: left;
