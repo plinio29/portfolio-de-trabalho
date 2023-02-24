@@ -896,40 +896,52 @@ footer .creditos strong{
     }
     article .projetos .quadro-cards .card{
         width: 280px;
+        position: relative;
+        height: 446px;
         border-radius: 8px;
         margin: auto;
         cursor: pointer;
-        box-shadow: -1px 2px 6px 4px #00000023;
-        -webkit-box-shadow: -1px 2px 6px 4px #00000023;
-        -moz-box-shadow: -1px 2px 6px 4px #00000023;
+        box-shadow: -1px 2px 6px 4px #00000017;
+        -webkit-box-shadow: -1px 2px 6px 4px #00000017;
+        -moz-box-shadow: -1px 2px 6px 4px #00000017;
         transition-duration: 0.2s;
     }
     article .projetos .quadro-cards .card:hover{
-        width: 295px;
+        box-shadow: -1px 2px 6px 4px #0000002c;
+        -webkit-box-shadow: -1px 2px 6px 4px #0000002c;
+        -moz-box-shadow: -1px 2px 6px 4px #0000002c;
     }
     article .projetos .quadro-cards #card-mais{
         height: 446px;
         background-color: #407BFF;
-        text-align: center;
     }
-    article .projetos .quadro-cards #card-mais .mais{
-        width: 40%;
-        margin-top: 55%;
+    article .projetos .quadro-cards #card-mais #mais{
+        width: 100px;
+        margin-top: 60%;
+        margin-left: 30%;
     }
     article .projetos .quadro-cards .card h1{
-        font-size: 1.8em;
+        width: 95%;
+        font-size: 1.7em;
         text-align: center;
+        margin: auto;
+        padding-top: 30px;
+    }
+    article .projetos .quadro-cards .card .texto{
+        width: 100%;
+        height: 120px;
+        margin-bottom: 70px;
     }
     article .projetos .quadro-cards .card p{
         text-align: left;
         font-size: 1em;
         padding-top: 20px;
-        padding-bottom: 20px;
         width: 90%;
     }
     article .projetos .quadro-cards .card img{
         width: 100%;
-        margin-bottom: -4px;
+        position: absolute;
+        margin-bottom: 0px;
         border-bottom-right-radius: 8px;
         border-bottom-left-radius: 8px;
     }
