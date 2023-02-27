@@ -901,9 +901,9 @@ footer .creditos strong{
         border-radius: 8px;
         margin: auto;
         cursor: pointer;
-        box-shadow: -1px 2px 6px 4px #00000017;
-        -webkit-box-shadow: -1px 2px 6px 4px #00000017;
-        -moz-box-shadow: -1px 2px 6px 4px #00000017;
+        box-shadow: -1px 2px 6px 4px #0000001a;
+        -webkit-box-shadow: -1px 2px 6px 4px #0000001a;
+        -moz-box-shadow: -1px 2px 6px 4px #0000001a;
         transition-duration: 0.2s;
     }
     article .projetos .quadro-cards .card:hover{
@@ -930,7 +930,7 @@ footer .creditos strong{
     article .projetos .quadro-cards .card .texto{
         width: 100%;
         height: 120px;
-        margin-bottom: 70px;
+        margin-bottom: 68px;
     }
     article .projetos .quadro-cards .card p{
         text-align: left;
