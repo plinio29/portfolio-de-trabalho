@@ -894,6 +894,10 @@ footer .creditos strong{
         flex-wrap: wrap;
         gap: 1.9em;
     }
+    article .projetos .quadro-cards a{
+        text-decoration: none;
+        color: #141414;
+    }
     article .projetos .quadro-cards .card{
         width: 280px;
         position: relative;
