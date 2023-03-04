@@ -901,7 +901,7 @@ footer .creditos strong{
     article .projetos .quadro-cards .card{
         width: 280px;
         position: relative;
-        height: 446px;
+        height: 442px;
         border-radius: 8px;
         margin: auto;
         cursor: pointer;
@@ -914,9 +914,10 @@ footer .creditos strong{
         box-shadow: -1px 2px 6px 4px #0000002c;
         -webkit-box-shadow: -1px 2px 6px 4px #0000002c;
         -moz-box-shadow: -1px 2px 6px 4px #0000002c;
+        color: #407BFF;
     }
     article .projetos .quadro-cards #card-mais{
-        height: 446px;
+        height: 442px;
         background-color: #407BFF;
     }
     article .projetos .quadro-cards #card-mais #mais{
@@ -924,12 +925,18 @@ footer .creditos strong{
         margin-top: 62%;
         margin-left: 32%;
     }
+    article .projetos .quadro-cards .card .titulo{
+        width: 100%;
+        height: 23%;
+        word-wrap: break-word;
+    }
     article .projetos .quadro-cards .card h1{
-        width: 95%;
-        font-size: 1.7em;
+        width: 90%;
+        font-size: 1.5em;
         text-align: center;
         margin: auto;
         padding-top: 30px;
+        transition-duration: 0.2s;
     }
     article .projetos .quadro-cards .card .texto{
         width: 100%;
