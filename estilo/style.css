@@ -892,7 +892,8 @@ footer .creditos strong{
         margin: auto;
         display: flex;
         flex-wrap: wrap;
-        gap: 1.9em;
+        justify-content: space-between;
+        gap: 2em;
     }
     article .projetos .quadro-cards a{
         text-decoration: none;
@@ -903,12 +904,12 @@ footer .creditos strong{
         position: relative;
         height: 442px;
         border-radius: 8px;
-        margin: auto;
         cursor: pointer;
         box-shadow: -1px 2px 6px 4px #0000001a;
         -webkit-box-shadow: -1px 2px 6px 4px #0000001a;
         -moz-box-shadow: -1px 2px 6px 4px #0000001a;
         transition-duration: 0.2s;
+        margin: auto;
     }
     article .projetos .quadro-cards .card:hover{
         box-shadow: -1px 2px 6px 4px #0000002c;
