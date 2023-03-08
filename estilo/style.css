@@ -1192,6 +1192,7 @@ footer .creditos strong{
         color: #407BFF;
     }
 }
+
 @media screen and (max-width: 1300px){
     article .projetos .quadro-cards .card{
         width: 340px;
@@ -1206,6 +1207,7 @@ footer .creditos strong{
         margin: auto;
     }
 }
+
 @media screen and (max-width: 1080px){
     /*corpo*/
     article .inicio{
@@ -1363,7 +1365,7 @@ footer .creditos strong{
         color: #141414;
     }
     article .projetos .quadro-cards .card{
-        width: 364px;
+        width: 300px;
         position: relative;
         height: 442px;
         border-radius: 8px;
@@ -1452,6 +1454,21 @@ footer .creditos strong{
     }
     footer .creditos strong{
         color: #407BFF;
+    }
+}
+
+@media screen and (max-width: 950px){
+    article .projetos .quadro-cards .card{
+        width: 360px;
+        position: relative;
+        height: 442px;
+        border-radius: 8px;
+        cursor: pointer;
+        box-shadow: -1px 2px 6px 4px #0000001a;
+        -webkit-box-shadow: -1px 2px 6px 4px #0000001a;
+        -moz-box-shadow: -1px 2px 6px 4px #0000001a;
+        transition-duration: 0.2s;
+        margin: auto;
     }
 }
 
