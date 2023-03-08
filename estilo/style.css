@@ -291,23 +291,6 @@ article .projetos .quadro-cards .card img{
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
 }
-/*Card 6*/
-article .projetos .quadro-cards #barra-vertical{
-    width: 9px;
-    height: 135px;
-    top: 35%;
-    left: 49%;
-    background-color: #407BFF;
-    position: absolute;
-}
-article .projetos .quadro-cards #barra-horizontal{
-    width: 135px;
-    height: 9px;
-    top: 49%;
-    left: 33%;
-    background-color: #407BFF;
-    position: absolute;
-}
 /*Base da página*/
 footer{
     background-color: #141414;
@@ -1159,23 +1142,6 @@ footer .creditos strong{
         margin-bottom: 0px;
         border-bottom-right-radius: 8px;
         border-bottom-left-radius: 8px;
-    }
-    /*Card 6*/
-    article .projetos .quadro-cards #barra-vertical{
-        width: 9px;
-        height: 135px;
-        top: 35%;
-        left: 49%;
-        background-color: #407BFF;
-        position: absolute;
-    }
-    article .projetos .quadro-cards #barra-horizontal{
-        width: 135px;
-        height: 9px;
-        top: 49%;
-        left: 33%;
-        background-color: #407BFF;
-        position: absolute;
     }
     /*Base da página*/
     footer{
