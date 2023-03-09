@@ -523,7 +523,7 @@ footer .creditos strong{
     }
     /*Parte atualizada*/
     article .projetos .quadro-cards{
-        width: 90%;
+        width: 64%;
         padding-bottom: 53px;
         padding-top: 53px;
         margin: auto;
@@ -765,7 +765,7 @@ footer .creditos strong{
     }
     /*Parte atualizada*/
     article .projetos .quadro-cards{
-        width: 90%;
+        width: 85%;
         padding-bottom: 53px;
         padding-top: 53px;
         margin: auto;
@@ -2355,5 +2355,20 @@ footer .creditos strong{
 @media screen and (max-width: 800px){
     article .projetos .quadro-cards{
         width: 77%;
+    }
+}
+@media screen and (max-width: 750px){
+    article .projetos .quadro-cards{
+        width: 78%;
+    }
+}
+@media screen and (max-width: 670px){
+    article .projetos .quadro-cards{
+        width: 86%;
+    }
+}
+@media screen and (max-width: 650px){
+    article .projetos .quadro-cards{
+        width: 90%;
     }
 }
