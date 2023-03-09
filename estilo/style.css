@@ -1143,6 +1143,24 @@ footer .creditos strong{
         border-bottom-right-radius: 8px;
         border-bottom-left-radius: 8px;
     }
+    /*Configurações especificas do card 6*/
+    article .projetos .quadro-cards #projeto6 .titulo{
+        color: #ffffff00;
+    }
+    article .projetos .quadro-cards #projeto6 .texto{
+        margin-bottom: 0px;
+        margin-top: 70%;
+        height: 80px;
+    }
+    article .projetos .quadro-cards #projeto6 .texto p{
+        text-align: center;
+    }
+    article .projetos .quadro-cards #projeto6 img{
+        bottom: 30%;
+    }
+    article .projetos .quadro-cards #projeto6 .texto:hover{
+        color: #407BFF;
+    }
     /*Base da página*/
     footer{
         background-color: #141414;
