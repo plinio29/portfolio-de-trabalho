@@ -49,7 +49,7 @@ header .logo-cabeca{
 header .menu-cabeca{
     display: flex;
     list-style: none;
-    gap: 1.5em;
+    gap: 1.6em;
     margin-top: 7px;
 }
 header nav #botao-mobile{
@@ -941,7 +941,7 @@ footer .creditos strong{
     header .menu-cabeca{
         display: flex;
         list-style: none;
-        gap: 1.5em;
+        gap: 1.6em;
         margin-top: 7px;
     }
     header nav #botao-mobile{
