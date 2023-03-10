@@ -2372,3 +2372,18 @@ footer .creditos strong{
         width: 90%;
     }
 }
+@media screen and (max-width: 620px){
+    article .projetos .quadro-cards{
+        width: 95%;
+    }
+}
+@media screen and (max-width: 580px){
+    article .projetos .quadro-cards{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 500px){
+    article .projetos .quadro-cards{
+        width: 89%;
+    }
+}
