@@ -1,3 +1,6 @@
+/*Script não utilizado devido as ultimas alterações*/ 
+
+
 /*var botao1 = document.getElementById('botao1');
 var botao2 = document.getElementById('botao2');
 var botao3 = document.getElementById('botao3');
