@@ -91,10 +91,10 @@ article .inicio .apresentacao strong{
 article .inicio .apresentacao .botoes{
     display: flex;
     width: 60%;
-    margin: auto;
+    margin-left: 0px;
 }
 article .inicio .apresentacao .botoes a{
-margin: auto;
+margin: 0px;
 }
 article .inicio .apresentacao .botoes button{
     background-color: #407BFF;
@@ -103,7 +103,7 @@ article .inicio .apresentacao .botoes button{
     border: none;
     border-radius: 5px;
     padding: 5px;
-    margin: 5px 8px;
+    margin: 0px;
     color: #ffff;
     cursor: pointer;
     font-size: 1.2em;
@@ -401,7 +401,7 @@ footer .creditos strong{
     article .inicio .apresentacao .botoes{
         display: flex;
         width: 80%;
-        margin: auto;
+        margin-left: 0px;
         gap: 7px;
         padding-top: 15px;
         padding-bottom: 40px;
@@ -415,7 +415,7 @@ footer .creditos strong{
         color: #ffff;
         cursor: pointer;
         font-size: 2.2em;
-        margin: auto;
+        margin: 0px;
     }
     article .inicio .imagem{
         margin: auto;
@@ -670,7 +670,7 @@ footer .creditos strong{
     article .inicio .apresentacao .botoes{
         display: flex;
         width: 80%;
-        margin: auto;
+        margin-left: 0px;
         gap: 7px;
         padding-top: 15px;
         padding-bottom: 40px;
@@ -684,7 +684,7 @@ footer .creditos strong{
         color: #ffff;
         cursor: pointer;
         font-size: 1.8em;
-        margin: auto;
+        margin: 0px;
     }
     article .inicio .imagem{
         margin: auto;
@@ -976,10 +976,10 @@ footer .creditos strong{
     article .inicio .apresentacao .botoes{
         display: flex;
         width: 60%;
-        margin: auto;
+        margin-left: 0px;
     }
     article .inicio .apresentacao .botoes a{
-        margin: auto;
+        margin: 0px;
     }
     article .inicio .apresentacao .botoes button{
         background-color: #407BFF;
@@ -988,7 +988,7 @@ footer .creditos strong{
         border: none;
         border-radius: 5px;
         padding: 5px;
-        margin: 5px 8px;
+        margin: 0px;
         color: #ffff;
         cursor: pointer;
         font-size: 1.2em;
@@ -2117,6 +2117,9 @@ footer .creditos strong{
         gap: 3px;
         padding-top: 15px;
         padding-bottom: 40px;
+    }
+    article .inicio .apresentacao .botoes a{
+        margin: auto;
     }
     article .inicio .apresentacao .botoes button{
         background-color: #407BFF;
