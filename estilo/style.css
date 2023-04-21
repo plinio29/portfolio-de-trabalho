@@ -73,6 +73,7 @@ article .inicio p{
     font-size: 1.4em;
     margin: 20px 0px;
     text-align: left;
+    color: #404041;;
 }
 article .inicio .apresentacao{
     margin: auto;
@@ -161,6 +162,7 @@ article .sobre .descricao p{
     text-align: left;
     width: 100%;
     margin: auto;
+    color: #c5c6c7;
 }
 article .sobre .descricao .cidade{
     padding-top: 15px;
@@ -293,6 +295,7 @@ article .projetos .quadro-cards .card p{
     font-size: 1em;
     padding-top: 20px;
     width: 90%;
+    color: #404041;
 }
 article .projetos .quadro-cards .card img{
     width: 100%;
@@ -304,6 +307,9 @@ article .projetos .quadro-cards .card img{
 /*Configurações especificas do card 6*/
 article .projetos .quadro-cards #projeto6 .titulo{
     color: #ffffff00;
+}
+article .projetos .quadro-cards #projeto6 .titulo p{
+    color: #00000000;
 }
 article .projetos .quadro-cards #projeto6 .texto{
     margin-bottom: 0px;
@@ -348,6 +354,7 @@ footer p{
     margin: auto;
     font-size: 1.1em;
     text-align: center;
+    color: #c5c6c7;
 }
 footer .contato .img-contato{
     display: flex;
@@ -386,6 +393,7 @@ footer .creditos strong{
         font-size: 2.2em;
         margin: 20px 0px;
         text-align: left;
+        color: #404041;
     }
     article .inicio .apresentacao{
         margin: auto;
@@ -459,6 +467,7 @@ footer .creditos strong{
         font-size: 2em;
         padding: 5px;
         text-align: left;
+        color: #c5c6c7;
     }
     article .sobre .descricao .cidade{
         padding-top: 15px;
@@ -589,6 +598,7 @@ footer .creditos strong{
         font-size: 1em;
         padding-top: 20px;
         width: 90%;
+        color: #404041;
     }
     article .projetos .quadro-cards .card img{
         width: 100%;
@@ -597,6 +607,9 @@ footer .creditos strong{
         margin-bottom: 0px;
         border-bottom-right-radius: 8px;
         border-bottom-left-radius: 8px;
+    }
+    article .projetos .quadro-cards #projeto6 .titulo p{
+        color: #00000000;
     }
     footer .contato{
         margin: auto;
@@ -620,6 +633,7 @@ footer .creditos strong{
         margin: auto;
         font-size: 2.2em;
         text-align: center;
+        color: #c5c6c7;
     }
     footer .contato .img-contato{
         display: flex;
@@ -958,6 +972,7 @@ footer .creditos strong{
         font-size: 1.4em;
         margin: 20px 0px;
         text-align: justify;
+        color: #404041;
     }
     article .inicio .apresentacao{
         margin: auto;
@@ -1046,6 +1061,7 @@ footer .creditos strong{
         text-align: left;
         width: 100%;
         margin: auto;
+        color: #c5c6c7;
     }
     article .sobre .descricao .cidade{
         padding-top: 15px;
@@ -1176,6 +1192,7 @@ footer .creditos strong{
         font-size: 1em;
         padding-top: 20px;
         width: 90%;
+        color: #404041;
     }
     article .projetos .quadro-cards .card img{
         width: 100%;
@@ -1188,6 +1205,9 @@ footer .creditos strong{
     /*Configurações especificas do card 6*/
     article .projetos .quadro-cards #projeto6 .titulo{
         color: #ffffff00;
+    }
+    article .projetos .quadro-cards #projeto6 .titulo p{
+        color: #00000000;
     }
     article .projetos .quadro-cards #projeto6 .texto{
         margin-bottom: 0px;
@@ -1231,6 +1251,7 @@ footer .creditos strong{
         margin: auto;
         font-size: 1.1em;
         text-align: center;
+        color: #c5c6c7;
     }
     footer .contato .img-contato{
         display: flex;
@@ -2181,6 +2202,7 @@ footer .creditos strong{
         font-size: 1em;
         padding: 5px;
         width: 85%;
+        color: #c5c6c7;
     }
     article .sobre .descricao .cidade{
         padding-top: 15px;
@@ -2283,6 +2305,7 @@ footer .creditos strong{
         margin: auto;
         font-size: 1em;
         text-align: center;
+        color: #c5c6c7;
     }
     footer .contato .img-contato{
         display: flex;
@@ -2311,7 +2334,7 @@ footer .creditos strong{
     article .inicio{
         margin: auto;
         display: flex;
-        width: 70%;
+        width: 80%;
     }
     article .inicio h1{
         font-size: 2.5em;
@@ -2324,7 +2347,6 @@ footer .creditos strong{
     article .inicio .apresentacao{
         margin: auto;
         margin-top: 80px;
-       
     }
     article .inicio .apresentacao .barra{
         height: 5px;
@@ -2342,8 +2364,8 @@ footer .creditos strong{
     }
     article .inicio .apresentacao .botoes button{
         background-color: #407BFF;
-        width: 110px;
-        height: 40px;
+        width: 130px;
+        height: 50px;
         border: none;
         border-radius: 5px;
         color: #ffff;
